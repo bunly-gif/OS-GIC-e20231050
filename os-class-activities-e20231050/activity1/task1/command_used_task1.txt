@@ -1,0 +1,10 @@
+gcc file_creator_lib.c -o file_creator_lib
+./file_creator_lib
+gcc file_creator_sys.c -o file_creator_sys
+./file_creator_sys
+gcc file_reader_lib.c -o file_reader_lib
+./file_reader_lib
+gcc file_reader_sys.c -o file_reader_sys
+./file_reader_sys
+gcc copyfilesyscall.c -o copyfilesyscall
+./copyfilesyscall

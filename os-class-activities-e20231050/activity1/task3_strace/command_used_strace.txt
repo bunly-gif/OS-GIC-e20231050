@@ -1,0 +1,17 @@
+# Task 1 - File Creator: Library Version
+strace -e trace=openat,read,write,close ~/OS-Class-Activity1/task1/file_creator_lib 2> strace_lib_task1.txt
+
+# Task 1 - File Creator: System Call Version
+strace -e trace=openat,read,write,close ~/OS-Class-Activity1/task1/file_creator_sys 2> strace_sys_task1.txt
+
+# Task 1 - File Reader: Library Version
+strace -e trace=openat,read,write,close ~/OS-Class-Activity1/task1/file_reader_lib 2> strace_lib_reader.txt
+
+# Task 1 - File Reader: System Call Version
+strace -e trace=openat,read,write,close ~/OS-Class-Activity1/task1/file_reader_sys 2> strace_sys_reader.txt
+
+# Summary - Library Version
+strace -c ~/OS-Class-Activity1/task1/file_creator_lib 2> strace_summary_lib.txt
+
+# Summary - System Call Version
+strace -c ~/OS-Class-Activity1/task1/file_creator_sys 2> strace_summary_sys.txt

@@ -1,0 +1,4 @@
+gcc dir_list_lib.c -o dir_list_lib
+./dir_list_lib
+gcc dir_list_sys.c -o dir_list_sys
+./dir_list_sys
