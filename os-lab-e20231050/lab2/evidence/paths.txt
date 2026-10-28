@@ -1,0 +1,23 @@
+Step1:
+mv "vendor list.txt" ../reports/
+
+Step2:
+mv "$OSLAB_WORKSPACE/lab2/incoming/sales north.txt" "$OSLAB_WORKSPACE/lab2/reports"
+
+Step3:
+cp -- "reports/$file1" "reports/$file2" "TechCorp/$owner/"
+
+Step4:
+cp -- "reports/$file1" "TechCorp/$owner/archive/first-original.txt"
+
+Step5 relative read:
+cat "../Legal/$file1"
+
+Step5 absolute read:
+cat "$OSLAB_WORKSPACE/lab2/TechCorp/$owner/$file1"
+
+Step6 decision:
+I chose relative paths for Step 3 because I was working from the lab folder, so the paths were shorter. Absolute paths would be better when running commands from different directories because they identify the location from the workspace path.
+
+Error: cat: 'reports/vendor list.txt': No such file or directory
+Fix: ../../reports/vendor list.txt
