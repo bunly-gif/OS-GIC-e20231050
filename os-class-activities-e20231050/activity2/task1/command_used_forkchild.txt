@@ -1,0 +1,20 @@
+  340  ls -la "$SUBMISSION_REPO/os-lab-e20231050/lab1"
+  341  mkdir -p "$SUBMISSION_REPO/os-lab-e20231050/lab2/evidence"
+  342  cp -- "$HOME/oslab-work/lab2/evidence/paths.txt" "$HOME/oslab-work/lab2/evidence/tree.txt" "$HOME/oslab-work/lab2/evidence/checkpoint.txt" "$SUBMISSION_REPO/os-lab-e20231050/lab2/evidence/"
+  343  ls -l "$SUBMISSION_REPO/os-lab-e20231050/lab2/evidence"
+  344  nano "$SUBMISSION_REPO/os-lab-e20231050/lab2/README.md"
+  345  git -C "$SUBMISSION_REPO" status
+  346  git -C "$SUBMISSION_REPO" add os-lab-e20231050/lab2/
+  347  git -C "$SUBMISSION_REPO" status
+  348  git -C "$SUBMISSION_REPO" commit -m "Submit OS Lab 2"
+  349  git -C "$SUBMISSION_REPO" push origin main
+  350  git -C "$SUBMISSION_REPO" pull --rebase origin main
+  351  git -C "$SUBMISSION_REPO" push origin main
+  352  cd ~/oslab-work && mkdir -p activity2/task1 && cd activity2/task1
+  353  nano forkchild.c
+  354  gcc -o forkchild forkchild.c
+  355  ./forkchild > result_forkchild.txt 2>&1
+  356  cat result_forkchild.txt
+  357  cd ~/oslab-work/activity2/task1 && pwd
+  358  ./forkchild
+  359  history | tail -n 20 > command_used_forkchild.txt
