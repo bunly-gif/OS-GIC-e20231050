@@ -1,0 +1,1 @@
+The [12] pattern matched river1.txt and river2.txt. The [!1]* pattern excluded names whose next character was 1 and matched river.log and river2.txt. Both results matched my predictions.

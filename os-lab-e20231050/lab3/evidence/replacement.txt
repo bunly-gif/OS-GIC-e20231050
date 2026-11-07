@@ -1,0 +1,9 @@
+
+=== NEW FILE USING THE OLD NAME ===
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river-backup.txt
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river-hard.txt
+18874538 lrwxrwxrwx 1 gic-vong-bunly gic-vong-bunly  9 Nov  7 15:57 river-soft.txt -> river.txt
+18874540 -rw-rw-r-- 1 gic-vong-bunly gic-vong-bunly 12 Nov  7 16:00 river.txt
+river.txt: version 773
+hard: version 720
+soft: version 773

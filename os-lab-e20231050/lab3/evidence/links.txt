@@ -1,0 +1,26 @@
+
+=== BEFORE RENAME ===
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river-hard.txt
+18874538 lrwxrwxrwx 1 gic-vong-bunly gic-vong-bunly  9 Nov  7 15:57 river-soft.txt -> river.txt
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river.txt
+hard: version 720
+soft: version 720
+stored target: river.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river-backup.txt
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river-hard.txt
+18874538 lrwxrwxrwx 1 gic-vong-bunly gic-vong-bunly  9 Nov  7 15:57 river-soft.txt -> river.txt
+hard: version 720
+stored target: river.txt
+soft: cat: river-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river-backup.txt
+18874524 -rw-rw-r-- 2 gic-vong-bunly gic-vong-bunly 12 Nov  7 15:36 river-hard.txt
+18874538 lrwxrwxrwx 1 gic-vong-bunly gic-vong-bunly 16 Nov  7 16:02 river-soft.txt -> river-backup.txt
+stored target: river-backup.txt
+hard: version 720
+soft: version 720
+
+Decision: I used the relative target river-backup.txt because the symbolic link and target are in the same folder. If I used an absolute path, moving the whole folder could make the stored path point to the old location and the link would break.
