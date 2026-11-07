@@ -1,0 +1,20 @@
+  275  git -C ~/OS-GIC-e20231050 push origin main
+  276  ssh gic-vong-bunly@ssh2.rathpisey.site
+  277  cd ..
+  278  ssh gic-vong-bunly@ssh2.rathpisey.site
+  279  pwd
+  280  ls
+  281  cd OS-Class-Activity1
+  282  ls
+  283  cd ~
+  284  mkdir -p Activity2/task3_shm
+  285  cd Activity2/task3_shm
+  286  pwd
+  287  nano shm-producer.c
+  288  nano shm-consumer.c
+  289  gcc -o shm-producer shm-producer.c -lrt
+  290  gcc -o shm-consumer shm-consumer.c -lrt
+  291  ./shm-producer
+  292  ./shm-consumer > result-shm-ipc.txt
+  293  cat result-shm-ipc.txt
+  294  history | tail -n 20 > command_used_shm.txt

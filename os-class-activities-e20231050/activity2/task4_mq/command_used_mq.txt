@@ -1,0 +1,20 @@
+  292  ./shm-consumer > result-shm-ipc.txt
+  293  cat result-shm-ipc.txt
+  294  history | tail -n 20 > command_used_shm.txt
+  295  ./shm-consumer
+  296  ls -l
+  297  mkdir -p ~/Activity2/task4_mq
+  298  cd ~/Activity2/task4_mq
+  299  pwd
+  300  nano common.h
+  301  nano sender.c
+  302  nano receiver.c
+  303  gcc -o sender sender.c -lrt
+  304  gcc -o receiver receiver.c -lrt
+  305  ./sender
+  306  cat result-mq-ipc.txt
+  307  ./receiver > result-mq-ipc.txt
+  308  cat result-mq-ipc.txt
+  309  history | tail -n 20 > command_used_mq.txt
+  310  ./receiver
+  311  history | tail -n 20 > command_used_shm.txt

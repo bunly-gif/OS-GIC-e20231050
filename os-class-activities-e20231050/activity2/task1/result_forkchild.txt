@@ -1,0 +1,11 @@
+Child process: PID = 1360206, PPID = 1360205
+Child: executing ls -la...
+total 36
+drwxrwxr-x 2 gic-vong-bunly gic-vong-bunly  4096 Nov  3 19:54 .
+drwxrwxr-x 3 gic-vong-bunly gic-vong-bunly  4096 Nov  3 19:51 ..
+-rwxrwxr-x 1 gic-vong-bunly gic-vong-bunly 16480 Nov  3 19:54 forkchild
+-rw-rw-r-- 1 gic-vong-bunly gic-vong-bunly  1012 Nov  3 19:53 forkchild.c
+-rw-rw-r-- 1 gic-vong-bunly gic-vong-bunly    72 Nov  3 19:55 result_forkchild.txt
+Parent process: PID = 1360205, Child PID = 1360206
+Child exited with status: 0
+Parent: child process finished. Done.
