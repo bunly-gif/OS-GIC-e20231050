@@ -1,0 +1,20 @@
+  711  pwd
+  712  nano threads.c
+  713  ls -l threads.c
+  714  gcc -o threads threads.c -pthread
+  715  ls -l threads
+  716  ./threads
+  717  ./threads > result_threads.txt 2>&1
+  718  cat result_threads.txt
+  719  nano threads_mutex.c
+  720  gcc -o threads_mutex threads_mutex.c -pthread
+  721  ./threads_mutex > result_threads_mutex.txt 2>&1
+  722  cat result_threads_mutex.txt
+  723  $ history | tail -n 20 > command_used_threads.txt
+  724  history | tail -n 20 > command_used_threads.txt
+  725  ls -l threads_mutex.c threads_mutex result_threads.txt result_threads_mutex.txt
+  726  nano threads_observe.c
+  727  ls -l threads_observe.c
+  728  gcc -o threads_observe threads_observe.c -pthread
+  729  ls -l threads_observe
+  730  history | tail -n 20 > command_used_threads.txt

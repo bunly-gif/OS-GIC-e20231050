@@ -1,0 +1,7 @@
+Starting 4 threads...
+Thread 1 finished.
+Thread 0 finished.
+Thread 3 finished.
+Thread 2 finished.
+Final counter value: 113181
+Expected counter value: 400000

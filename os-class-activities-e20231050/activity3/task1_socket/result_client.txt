@@ -1,0 +1,6 @@
+Socket created successfully.
+Connecting to server...
+Connected to server.
+Sent: Hello from client!
+Received: Hello from server!
+Connection closed.

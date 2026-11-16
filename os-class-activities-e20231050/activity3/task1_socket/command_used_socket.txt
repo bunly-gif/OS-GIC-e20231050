@@ -1,0 +1,20 @@
+  689  gcc -o server server.c
+  690  gcc -o client client.c
+  691  ls -l
+  692  ./server
+  693  sudo ss -ltnp | grep ':8080'
+  694  ps -u "$USER" -f | grep '[s]erver'
+  695  ss -ltn | grep ':8080'
+  696  nano server.c
+  697  nano client.c
+  698  gcc -o server server.c
+  699  gcc -o client client.c
+  700  ./server
+  701  pwd
+  702  ./server > result_server.txt 2>&1 &
+  703  sleep 1
+  704  ./client > result_client.txt 2>&1
+  705  wait
+  706  cat result_server.txt result_client.txt > result_socket.txt
+  707  cat result_socket.txt
+  708  history | tail -n 20 > command_used_socket.txt

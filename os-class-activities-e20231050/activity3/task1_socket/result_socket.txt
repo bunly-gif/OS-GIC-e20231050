@@ -1,0 +1,13 @@
+Socket created successfully.
+Socket bound to port 8081.
+Server listening for connections...
+Client connected.
+Received: Hello from client!
+Sent: Hello from server!
+Connection closed.
+Socket created successfully.
+Connecting to server...
+Connected to server.
+Sent: Hello from client!
+Received: Hello from server!
+Connection closed.

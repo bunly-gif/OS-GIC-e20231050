@@ -1,0 +1,20 @@
+Main thread PID: 2774
+Alpha - Count: 1
+Beta - Count: 1
+Gamma - Count: 1
+Gamma - Count: 2
+Beta - Count: 2
+Alpha - Count: 2
+Beta - Count: 3
+Gamma - Count: 3
+Alpha - Count: 3
+Beta - Count: 4
+Gamma - Count: 4
+Alpha - Count: 4
+Beta - Count: 5
+Gamma - Count: 5
+Alpha - Count: 5
+Gamma finished.
+Beta finished.
+Alpha finished.
+All threads completed.

@@ -1,0 +1,16 @@
+ 1009  ls -l
+ 1010  java ThreadDemo
+ 1011  java ThreadDemo > result_thread_demo.txt 2>&1
+ 1012  cat result_thread_demo.txt
+ 1013  nano RunnableDemo.java
+ 1014  ls -l RunnableDemo.java
+ 1015  javac RunnableDemo.java
+ 1016  java RunnableDemo
+ 1017  java RunnableDemo > result_runnable_demo.txt 2>&1
+ 1018  cat result_runnable_demo.txt
+ 1019  nano PoolDemo.java
+ 1020  ls -l PoolDemo.java
+ 1021  javac PoolDemo.java
+ 1022  java PoolDemo
+ 1023  java PoolDemo > result_pool_demo.txt 2>&1
+ 1024  cat result_pool_demo.txt
