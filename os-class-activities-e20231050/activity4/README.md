@@ -2,9 +2,9 @@
 
 - **Student Name:** VONG Bunly
 - **Student ID:** e20231050
-- **Partner Name:** N/A — Completed individually
-- **Partner Student ID:** N/A
-- **Server Machine Owner:** Myself
+- **Partner Name:** SENG Monika
+- **Partner Student ID:** e20231167
+- **Server Machine Owner:** VONG Bunly
 - **Server Machine:** MacBook Air
 - **Client Machine:** Lenovo Windows laptop
 - **Server IP Address:** 192.168.1.33
